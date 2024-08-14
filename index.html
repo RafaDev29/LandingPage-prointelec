@@ -1,0 +1,677 @@
+  <!-- <?php -->
+
+
+<!--  ?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="modinatheme">
+    <!-- ======== Page title ============ -->
+    <title>QPL</title>
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="templates/transland-html/assets/img/favicon.png">
+    <!-- ===========  All Stylesheet ================= -->
+    <!--  Icon css plugins -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/icons.css">
+
+    <!--  animate css plugins -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/animate.css">
+    <!--  slick css plugins -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/slick.css">
+    <!--  magnific-popup css plugins -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/magnific-popup.css">
+    <!-- metis menu css file -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/metismenu.css">
+    <!-- select2 css file -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/nice-select2.css">
+    <!--  Bootstrap css plugins -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/bootstrap.min.css">
+    <!--  main style css file -->
+    <link rel="stylesheet" href="templates/transland-html/assets/css/style.css">
+
+    <!-- template main style css file -->
+    <link rel="stylesheet" href="templates/transland-html/style.css">
+
+    <style>
+       
+        .toggle-container {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .toggle-input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        .toggle-input:checked + .toggle-slider {
+            background-color: #2196F3;
+        }
+
+        .toggle-input:checked + .toggle-slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        .flag {
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+        }
+    </style>
+  
+
+</head>
+
+
+<body class="body-wrapper">
+      
+    <!-- preloader -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="txt-loading">
+                <div style="width: 240px; margin: 0 auto;" class="offset-menu-logo">
+                    <a href="index.html"><img src="templates/transland-html/assets/img/logo.png" alt="logo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offset-menu">
+
+        <span id="offset-menu-close-btn"><i class="fal fa-plus"></i></span> <!-- /.offset-menu-close-btn -->
+        <div class="offset-menu-wrapper text-white">
+            <div class="offset-menu-header">
+                <div class="offset-menu-logo">
+                    <a href="index.html"><img src="templates/transland-html/assets/img/logo.png" alt="logo"></a>
+                </div>
+            </div> <!-- /.offset-menu-header -->
+            <div class="offset-menu-section">
+                <h3>About Us</h3>
+                <p>Transland is the world’s driving worldwide coordinations supplier — we uphold industry and exchange
+                    the worldwide trade of merchandise through land transport.</p>
+                <a href="contact.html" class="theme-btn minimal-btn mt-30">Consultation <i
+                        class="fas fa-arrow-right"></i></a>
+            </div> <!-- /.offset-menu-section -->
+            <div class="offset-menu-section">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><span><i class="fal fa-map"></i></span>Rock St 12, Newyork City, USA</li>
+                    <li><span><i class="fal fa-phone"></i></span>(000) 000-000-0000</li>
+                    <li><span><i class="fal fa-envelope"></i></span>info@modinatheme.com</li>
+                    <li><span><i class="fal fa-clock"></i></span>Week Days: 09.00 to 18.00</li>
+                    <li><span><i class="fal fa-clock"></i></span>Sunday: Closed</li>
+                </ul>
+            </div> <!-- /.offset-menu-section -->
+            <div class="offset-menu-footer">
+                <div class="offset-menu-social-icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div> <!-- /.offset-menu-footer -->
+        </div> <!-- /.offset-menu-wrapper -->
+    </div> <!-- /.offset-menu -->
+
+    <!-- welcome content start from here -->
+
+    <header class="header-wrap header-3">
+
+        <div class="middle-header-wrapper">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-2 col-lg-4 col-6 align-items-center d-flex">
+                        <div class="mobile-nav-bar me-3">
+                            <div class="mobile-nav-wrap">
+                                <div id="hamburger">
+                                    <i class="fal fa-bars"></i>
+                                </div>
+                                <!-- mobile menu - responsive menu  -->
+                                <div class="mobile-nav">
+                                    <button type="button" class="close-nav">
+                                        <i class="fal fa-times-circle"></i>
+                                    </button>
+                                    <nav class="sidebar-nav">
+                                        <ul class="metismenu" id="mobile-menu">
+                                            <li><a href="#nosotros">Nosotros</a> </li>
+                                            <li><a href="./servicios.html">Servicios <i class="fas"></i></a></li>
+                                            <li><a href="index.html">Inicio</a></li>
+                                            <li><a href="#contactanos">Contactanos</a></li>
+                                            <li><a href="reclamaciones.html" target="_blank">Libro de reclamaciones</a></li>
+                                           
+                                        </ul>
+                                    </nav>
+
+                                    <div class="action-bar text-white">
+                                        <div class="single-info-element">
+                                            <div class="icon">
+                                                <i class="fal fa-map-marked-alt"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h5>Visita Nuestra Ubicación:</h5>
+                                                <span>238 Av. General Trinidad Morán Lima, PE</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-info-element">
+                                            <div class="icon">
+                                                <i class="fal fa-clock"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h5>Hora de Atenciòn:</h5>
+                                                <span>Lun-Vie 9am-6pm</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-info-element">
+                                            <div class="icon">
+                                                <i class="fal fa-envelope"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h5>Envianos un Correo:</h5>
+                                                <span>info@qplsac.com</span>
+                                            </div>
+                                        </div>
+                                        <div class="call-us">
+                                            <div class="icon text-white">
+                                                <i class="fal fa-phone-volume"></i>
+                                            </div>
+                                            <div class="text">
+                                                <h5>Contactanos</h5>
+                                                <span>+51 955 110 659</span>
+                                            </div>
+                                        </div>
+                                        <a href="#contactanos" class="theme-btn mt-4">Contactar Ahora</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+
+                        <div class="header-logo">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="templates/transland-html/assets/img/logo.png" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 p-lg-0 header-menu-wrap">
+                        <div class="header-menu-wrap">
+                            <div class="menu-top-bar">
+                                <div class="contact-info-grid">
+                                    <div class="single-menu-box">
+                                        <div class="icon">
+                                            <i class="fal fa-envelope-open"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3>Correo</h3>
+                                            <span>info@qplsac.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-box">
+                                        <div class="icon">
+                                            <i class="fal fa-phone-volume"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3>Contacto</h3>
+                                            <span>+51 955 110 659</span>
+                                        </div>
+                                    </div>
+                                    <div class="single-menu-box">
+                                        <div class="icon">
+                                            <i class="fal fa-clock"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3>Hora de atención</h3>
+                                            <span>08:00 am - 06:00 pm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+
+                            </div>
+
+                            <div class="main-menu-wrapper d-flex justify-content-center">
+                                <div class="main-menu">
+                                    <ul>
+                                        <li><a href="#nosotros">Nosotros</a> </li>
+                                        <li><a href="servicios.html">Servicios <i class="fas"></i></a></li>
+                                    
+                                        <li><a href="index.html">Inicio</a></li>
+                                        <li><a href="#contactanos">Contactanos</a></li>
+                                        <li><a href="reclamaciones.html" target="_blank">Libro de reclamaciones</a></li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-6 ps-lg-0 text-end">
+                        <div class="header-btn-cta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-slide-wrapper hero-3">
+        <div class="hero-slider-3 transland-dots">
+            <div class="single-slide bg-cover"
+                style="background-image: url('templates/transland-html/assets/img/home1/slider_maritimo_sintexto.jpg')">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-9 mt-5 mt-lg-0 order-2 order-lg-1 text-center text-lg-start">
+                            <div class="hero-contents text-white">
+                                <p class="animated" data-animation-in="fadeInLeft" data-delay-in="0.04">Aèreo, marìtimo
+                                    terrestre.</p>
+                                <h1 class="animated" data-animation-in="fadeInLeft" data-delay-in="0.3">SERVICIO
+                                    DE TRANSPORTE DE CARGA INTERNACIONAL
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-3 col-12 order-1 order-lg-2 text-center text-lg-end">
+                        <div class="video-play-btn animated" data-animation-in="fadeInUp" data-delay-in="0.8">
+                            <a href="https://www.youtube.com/watch?v=E1xkXZs0cAQ" class="play-video popup-video"><i class="fas fa-play"></i></a>                     
+                        </div> 
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="single-slide bg-cover"
+                style="background-image: url('templates/transland-html/assets/img/home1/logistica.jpg')">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-9 mt-5 mt-lg-0 order-2 order-lg-1 text-center text-lg-start">
+                            <div class="hero-contents text-white">
+                                <p class="animated" data-animation-in="fadeInLeft" data-delay-in="0.04">Tenemos alianzas
+                                    con las principales terminales de almacenamiento.</p>
+                                <h1 class="animated" data-animation-in="fadeInLeft" data-delay-in="0.3">SERVICIO<br>
+                                    LOGISTICO<br> A NIVEL <br>NACIONAL</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-slide bg-cover"
+                style="background-image: url('templates/transland-html/assets/img/home1/Slider_cargaPesada.png')">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-9 mt-5 mt-lg-0 order-2 order-lg-1 text-center text-lg-start">
+                            <div class="hero-contents text-white">
+                                <p class="animated" data-animation-in="fadeInLeft" data-delay-in="0.04">Seguridad
+                                    y agilidad para el manejo de sus operaciones.</p>
+                                <h1 class="animated" data-animation-in="fadeInLeft" data-delay-in="0.3">TRANSPORTE
+                                    DE CARGA SOBREDIMENSIONADA Y PESADA </h1>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-3 col-12 order-1 order-lg-2 text-center text-lg-end">
+                            <div class="video-play-btn animated" data-animation-in="fadeInUp" data-delay-in="0.8">
+                                <a href="https://www.youtube.com/watch?v=E1xkXZs0cAQ" class="play-video popup-video"><i class="fas fa-play"></i></a>                     
+                            </div> 
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-wrapper section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 text-center text-lg-start">
+                    <div class="about-img">
+                        <img src="templates/transland-html/assets/img/home1/Sector_logistico.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 mt-5 mt-lg-0 ps-lg-5">
+                    <div class="block-contents">
+                        <div class="section-title">
+                            <h5 class="textleft relative" id="nosotros">Nosotros</h5>
+                            <span>Desde el 2011</span>
+                            <h2>QUALITY PREMIUM LOGISTICS</h2>
+                        </div>
+                    </div>
+                    <div class="about-info-contents">
+                        <p>Somos una agencia de carga internacional especializada en soluciones logísticas donde
+                            encontrará un servicio
+                            personalizado, eficiente y de alta calidad. Contamos con una amplia red de agentes a nivel
+                            mundial lo que nos
+                            permite ofrecerle una asesoría completa de comercio exterior, y con socios estratégicos
+                            locales que nos permiten
+                            brindarle las mejores opciones en la cadena de suministro</p>
+
+                        <p>En QPL nos enorgullecemos de privilegiar la atención que brindamos a nuestros clientes y de
+                            los valores que nuestro equipo comparte: honradez, transparencia e integridad, además de las
+                            buenas prácticas de negocios que aplicamos en el desarrollo de nuestras operaciones. Nuestro
+                            compromiso constante es mantener una comunicación permanente y efectiva con la finalidad de
+                            satisfacer sus expectativas más altas, y nuestro objetivo es brindarle un elevado nivel de
+                            profesionalismo en cada servicio que usted decida manejar con nuestra empresa. </p>
+
+                        <p>
+                            Nuestro personal reúne más de 20 años de experiencia en el mercado de exportaciones e importaciones, tanto marítimas,
+                            como aéreas y terrestres, para todo tipo de carga, sean estas mercancías peligrosas, perecederas, sobre dimensionadas y
+                            de proyecto
+                        </p>
+
+                        <p>
+                            En un mundo cada día más complejo, dinámico y exigente, manejamos todos los procesos de la cadena logística ofreciendo a
+                            nuestros clientes las soluciones adecuadas a sus necesidades.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="our-service-provide theme-bg section-padding">
+        <div class="container">
+
+                <div class="col-xl-12 col-md-2 col-12">
+                    <div class="single-our-service">
+                        <div class="thumb bg-cover"
+                            style="background-image: url('templates/transland-html/assets/img/Mision.jpg')">
+                        </div>
+                        <div class="content">
+                            <h3>Misión</h3>
+                            <p>Proporcionar a nuestros principales y clientes un servicio confiable y eficiente en el transporte y la atención de
+                                sus cargas, de manera que les permita maximizar sus objetivos empresariales. Para nuestro personal, proporcionar un
+                                ambiente laboral estable y satisfactorio, con posibilidades de capacitación y desarrollo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="single-our-service">
+                        <div class="thumb bg-cover"
+                            style="background-image: url('templates/transland-html/assets/img/vision.jpg')">
+                        </div>
+                        <div class="content">
+                            <h3>Visión</h3>
+                            <p>Ser una organización líder en el país y referente a nivel regional en la provisión de servicios de transporte
+                                internacional de cargas y servicios logísticos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                   
+            </div>
+
+            
+        </div>
+    </div>
+
+</div>
+    </section>
+
+
+
+
+
+    <section class="request-a-quote-section theme-bg bg-cover calculate-wrapper section-padding"
+        style="background-image: url('templates/transland-html/assets/img/Exportacion-e-Importacion.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-12">
+                    <div class="block-contents mb-20 pr-30">
+                        <div class="section-title">
+                            <h5 class="textleft"></h5>
+                            <span>Formulario de Contacto</span>
+                            <h2>Por favor llene el Formulario<span> para iniciar</span></h2>
+                            <p class="text-white">Únase a nuestra comunidad global de socios y ayude a sus clientes a
+                                transformar su negocio con soluciones de vanguardia</p>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="col-xl-7 col-12">
+                    <div class="request-quote-form-wrapper mt-5 mt-xl-0 ms-xl-3" id="contactanos">
+                        <h4>Datos personales</h4>
+                        <div class="request-quote-form">
+                            <form id="do_contact_form" method="POST">
+                                <div class="row d-flex align-item-center">
+                                    <div class="col-sm-6 col-12">
+                                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu Nombre">
+                                    </div>
+                                    <div class="col-sm-6 col-12">
+                                        <input type="email" name="email" id="email" placeholder="Correo">
+                                    </div>
+                                    <div class="col-sm-6 col-12">
+                                        <input type="text" name="tel" id="tel" placeholder="Celular">
+                                    </div>
+                                    <div class="col-sm-12 col-12">
+                                        <input type="text" name="mensaje" id="mensaje" placeholder="Mensaje">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <button type="reset" id="kt_modal_new_target_cancel"
+                                            class="btn btn-secondary me-3">Cancel</button>
+                                        <button style="margin:0px;" name="submit" type="submit" value="Enviar"
+                                            class="btn btn-primary submit_button">
+                                            Enviar
+                                        </button>
+                                        <div style="margin-top:20px;" class="wrapper_msg"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer-1 footer-wrap">
+        <div class="footer-widgets-wrapper theme-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="about-transland pe-md-5 pe-xl-0">
+                            <a href="index.html">
+                                <img src="templates/transland-html/assets/img/logo.png" alt="transland">
+                            </a>
+                            <p>Nuestro compromiso constante es mantener una comunicación permanente y efectiva con la
+                                finalidad de satisfacer
+                                sus expectativas más altas.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xl-2">
+                        <div class="single-footer-wid ps-xl-2">
+                            <div class="wid-title">
+                                <h6>Compañia</h6>
+                            </div>
+                            <ul>
+                                <li><a href="#" onclick="return false;">Acerca de nosotros</a></li>
+                                <li><a href="#" onclick="return false;">Mapa del sitio</a></li>
+                                <li><a href="#" onclick="return false;">Términos y condiciones</a></li>
+                                <li><a href="#" onclick="return false;">Política y privacidad</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-6 col-xl-2">
+                        <div class="single-footer-wid ps-xl-2">
+                            <div class="wid-title">
+                                <h6>Nuestros Servicios</h6>
+                            </div>
+                            <ul>
+                                <li><a href="#" onclick="return false;">Fletes marítimos FCL Y LCL</a></li>
+                                <li><a href="#" onclick="return false;">Fletes aéreos</a></li>
+                                <li><a href="#" onclick="return false;">Fletes Terrestres</a></li>
+                                <li><a href="#" onclick="return false;">Servicio Logístico</a></li>
+                                <li><a href="#" onclick="return false;">Seguro de Mercadería</a></li>
+                                <li><a href="#" onclick="return false;">Carga de Proyecto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="single-footer-wid site-info-widget">
+                            <div class="wid-title">
+                                <h6>Ponerse en Contacto</h6>
+                            </div>
+                            <div class="get-in-touch">
+                                <div class="single-contact-info">
+                                    <div class="icon id1">
+                                        <i class="fal fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>C. El Alhelí 292, Surquillo 15038, Lima, PE</span>
+                                    </div>
+                                </div>
+                                <div class="single-contact-info">
+                                    <div class="icon id2">
+                                        <i class="fal fa-phone"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>+51 955 110 659</span>
+                                    </div>
+                                </div>
+                                <div class="single-contact-info">
+                                    <div class="icon id3">
+                                        <i class="fal fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>info@qplsac.com</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="newsletter_widget">
+                                <div class="newsletter_box">
+                                    <form action="#">
+                                        <input type="email" placeholder="Introduzca un correo electrónico" required>
+                                        <button class="submit-btn" type="submit"><i
+                                                class="fas fa-envelope-open"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container align-items-center">
+                <div class="bottom-content-wrapper">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="copy-rights">
+                                <p>&copy;2023 <strong>QPL</strong>, Todos los Derechos Reservados.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2 mt-md-0 col-12 text-md-end">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS FORM -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="contacto.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"> </script>
+    <script src="Idioma.js"> </script>
+   
+
+    <!--  ALl JS Plugins
+    ====================================== -->
+    <script src="templates/transland-html/assets/js/jquery.min.js"></script>
+    <script src="templates/transland-html/assets/js/modernizr.min.js"></script>
+    <script src="templates/transland-html/assets/js/jquery.easing.js"></script>
+    <script src="templates/transland-html/assets/js/popper.min.js"></script>
+    <script src="templates/transland-html/assets/js/bootstrap.min.js"></script>
+    <script src="templates/transland-html/assets/js/isotope.pkgd.min.js"></script>
+    <script src="templates/transland-html/assets/js/imageload.min.js"></script>
+    <script src="templates/transland-html/assets/js/scrollUp.min.js"></script>
+    <script src="templates/transland-html/assets/js/slick.min.js"></script>
+    <script src="templates/transland-html/assets/js/slick-animation.min.js"></script>
+    <script src="templates/transland-html/assets/js/magnific-popup.min.js"></script>
+    <script src="templates/transland-html/assets/js/wow.min.js"></script>
+    <script src="templates/transland-html/assets/js/metismenu.js"></script>
+    <!-- <script src="templates/transland-html/assets/js/nice-select2.js"></script> -->
+    <script src="templates/transland-html/assets/js/active.js"></script>
+</body>
+
+</html>

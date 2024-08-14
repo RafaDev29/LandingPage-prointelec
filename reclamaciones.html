@@ -1,0 +1,124 @@
+<html>
+<head>
+	<head>
+		<!-- ========== Meta Tags ========== -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="modinatheme">
+		<!-- ======== Page title ============ -->
+		<title>Reclamaciones</title>
+		<!-- ========== Favicon Icon ========== -->
+		<link rel="shortcut icon" href="templates/transland-html/assets/img/favicon.png">
+		<!-- ===========  All Stylesheet ================= -->
+		<!--  Icon css plugins -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/icons.css">
+	  
+		<!--  animate css plugins -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/animate.css">
+		<!--  slick css plugins -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/slick.css">
+		<!--  magnific-popup css plugins -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/magnific-popup.css">
+		<!-- metis menu css file -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/metismenu.css">
+		<!-- select2 css file -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/nice-select2.css">
+		<!--  Bootstrap css plugins -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/bootstrap.min.css">
+		<!--  main style css file -->
+		<link rel="stylesheet" href="templates/transland-html/assets/css/style.css">
+	
+	</head>
+	
+</head>
+<body>
+	<style>
+
+img#logo {
+            position: absolute; /* Cambiado de 'fixed' a 'absolute' */
+            top: 5px;
+            left: 10px;
+            width: auto;
+            height: 50px;
+            border-radius: 50px;
+            border: 2px solid #ffffff;
+        }
+		
+		form {
+            width: 500px; /* Ancho del formulario */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        div#form{
+	     justify-content: center;
+	     align-items: center;
+	     display:grid;
+         }
+		
+	</style>
+
+<img id="logo" src="templates/transland-html/assets/img/logo.png" alt="Logo">
+	
+	<div class="container" id="form">
+		<h1 class="text-center">Libro de reclamaciones</h1>
+		
+		<form class="col-sm-12 col-sm-offset-3"  action="#" method="POST">
+			<div class="form-group">
+				<label>Nombre *</label>
+				<input type="text" class="form-control" placeholder="Ej. Cesar">
+			</div>
+			<div class="form-group">
+				<label>Apellido *</label>
+				<input type="text" class="form-control" placeholder="Ej. Aquino Maximiliano">
+			</div>
+			<div class="form-group">
+				<label>Dirección *</label>
+				<input type="text" class="form-control" placeholder="Ej. Av. Los Angeles 1025">
+			</div>
+			<div class="form-group">
+				<label>Distrito *</label>
+				<input type="text" class="form-control" placeholder="Ej. Villa El Salvador">
+			</div>
+			<div class="form-group">
+				<label>Documento de Identidad*</label>
+				<select class="form-control">
+					<option>-Ninguno-</option>
+					<option value="D.N.I.">D.N.I.</option>
+					<option value="C.E.">C.E.</option>
+					<option value="Menor de edad">Menor de edad</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>N° doc. Identidad *</label>
+				<input type="text" class="form-control" placeholder="Ej. 40125201">
+			</div>
+			<div class="form-group">
+				<label>Correo electrónico *</label>
+				<input type="email" class="form-control" placeholder="Ej. nombre@correo.com">
+			</div>
+			<div class="form-group">
+				<label>Teléfono alternativo *</label>
+				<input type="text" class="form-control" placeholder="Ej. 1 294-0008">
+			</div>
+
+			<label class="radio-inline">
+				<input type="radio" name="tipo" checked> Producto
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="tipo"> Servicio
+			</label>
+			<div class="form-group">
+				<label>Descripcion</label>
+				<textarea class="form-control" rows="5"></textarea>
+			</div>
+			<input type="submit" class="btn btn-block btn-lg btn-primary">
+		</form>
+		<p>&nbsp;</p>
+
+	</div>
+</body>
+</html>
