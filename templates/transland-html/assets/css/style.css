@@ -201,7 +201,7 @@ h6 {
   margin: 0px;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #1f425d;
+  color: #055ea2;
   line-height: 145%;
 }
 
@@ -244,7 +244,7 @@ a {
   line-height: 28px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #1f425d;
+  color: #055ea2;
 }
 
 p {
@@ -1297,7 +1297,7 @@ p {
   width: 100%;
   height: 100%;
   opacity: .2;
-  background-color: #1f425d;
+  background-color: #055ea2;
   z-index: -1;
 }
 
@@ -1987,7 +1987,7 @@ nav .breadcrumb li {
 }
 
 #scrollUp {
-  background-color: #1f425d;
+  background-color: #055ea2;
   border-radius: 50%;
   bottom: 20px;
   color: #ffffff;
@@ -2659,8 +2659,8 @@ nav .breadcrumb li {
 }
 
 .theme-btn.black {
-  background-color: #1f425d;
-  border-color: #1f425d;
+  background-color: #055ea2;
+  border-color: #055ea2;
   -webkit-box-shadow: inherit;
           box-shadow: inherit;
 }
@@ -2679,8 +2679,8 @@ nav .breadcrumb li {
 }
 
 .theme-btn:hover {
-  background-color: #1f425d;
-  border: 1px solid #1f425d;
+  background-color: #055ea2;
+  border: 1px solid #055ea2;
   -webkit-box-shadow: inherit;
           box-shadow: inherit;
   color: #FFF;
@@ -2742,8 +2742,8 @@ nav .breadcrumb li {
 }
 
 .theme-button .elementor-button .elementor-button-content-wrapper.black {
-  background-color: #1f425d;
-  border-color: #1f425d;
+  background-color: #055ea2;
+  border-color: #055ea2;
   -webkit-box-shadow: inherit;
           box-shadow: inherit;
 }
@@ -2762,8 +2762,8 @@ nav .breadcrumb li {
 }
 
 .theme-button .elementor-button .elementor-button-content-wrapper:hover {
-  background-color: #1f425d;
-  border: 1px solid #1f425d;
+  background-color: #055ea2;
+  border: 1px solid #055ea2;
   -webkit-box-shadow: inherit;
           box-shadow: inherit;
   color: #FFF;
@@ -2807,7 +2807,7 @@ nav .breadcrumb li {
 }
 
 .video-play-btn .play-video:hover {
-  color: #1f425d;
+  color: #055ea2;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -2965,7 +2965,7 @@ nav .breadcrumb li {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 8px;
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .preloader .loader {
@@ -3080,7 +3080,7 @@ header.header-1 .main-menu ul > li > a {
   display: inline-block;
   font-weight: 700;
   text-transform: capitalize;
-  color: #1f425d;
+  color: #055ea2;
   line-height: 1;
   padding: 38px 22px;
   overflow: hidden;
@@ -3111,7 +3111,7 @@ header.header-1 .main-menu ul > li:hover > ul {
 }
 
 header.header-1 .main-menu ul > li:hover > ul li:hover a {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 header.header-1 .main-menu ul > li:hover > ul li:hover ul a:hover {
@@ -3148,7 +3148,7 @@ header.header-1 .main-menu ul > li > ul li a {
 }
 
 header.header-1 .main-menu ul > li > ul li a:hover {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 header.header-1 .main-menu ul > li > ul ul {
@@ -3158,7 +3158,7 @@ header.header-1 .main-menu ul > li > ul ul {
 
 header .logo_text {
   text-transform: uppercase;
-  color: #1f425d;
+  color: #055ea2;
   font-size: 27px;
   line-height: 1;
 }
@@ -3247,7 +3247,7 @@ header.header-2 .main-menu ul > li:hover > ul {
 }
 
 header.header-2 .main-menu ul > li:hover > ul li:hover a {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 header.header-2 .main-menu ul > li:hover > ul li:hover ul a:hover {
@@ -3284,7 +3284,7 @@ header.header-2 .main-menu ul > li > ul li a {
 }
 
 header.header-2 .main-menu ul > li > ul li a:hover {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 header.header-2 .main-menu ul > li > ul ul {
@@ -3293,7 +3293,7 @@ header.header-2 .main-menu ul > li > ul ul {
 }
 
 header .main-menu-wrapper {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 header.header-3 .top-header {
@@ -3315,7 +3315,7 @@ header.header-3 .top-header {
 
 header.header-3 .top-header .welcome-text a {
   text-decoration: underline;
-  color: #1f425d;
+  color: #055ea2;
   margin-left: 5px;
 }
 
@@ -3337,7 +3337,7 @@ header.header-3 .mobile-nav-bar {
 
 header.header-3 #hamburger {
   display: block;
-  color: #1f425d;
+  color: #055ea2;
 }
 
 header.header-3 .menu-top-bar {
@@ -3369,7 +3369,7 @@ header.header-3 .side-toggle-menu i {
 }
 
 header.header-3 .side-toggle-menu:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
   color: #fff;
   cursor: pointer;
 }
@@ -3424,7 +3424,7 @@ header.header-3 .single-menu-box .icon {
   overflow: hidden;
   font-size: 40px;
   line-height: 1;
-  color: #1f425d;
+  color: #055ea2;
   margin-right: 20px;
 }
 
@@ -3491,7 +3491,7 @@ header.header-3 .middle-header-wrapper {
 }
 
 header.header-3 .main-menu-wrapper {
-  background-color: #1f425d;
+  background-color: #055ea2;
   margin-bottom: -40px;
   z-index: 999;
   position: relative;
@@ -3536,7 +3536,7 @@ header.header-3 .main-menu ul > li > ul {
   position: absolute;
   top: 100%;
   width: 230px;
-  background-color: #1f425d;
+  background-color: #055ea2;
   left: 0;
   z-index: 999;
   -webkit-box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -3629,7 +3629,7 @@ header .header-right-element .search-box form input {
   width: 100%;
   line-height: 1;
   padding: 0px 20px;
-  color: #1f425d;
+  color: #055ea2;
   font-size: 16px;
   height: 60px;
   background-color: #fff;
@@ -3664,7 +3664,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .top-bar-wrapper {
-  background-color: #1f425d;
+  background-color: #055ea2;
   padding: 10px 0px;
 }
 
@@ -3741,7 +3741,7 @@ header .header-right-element .search-box form button:hover {
 .top-bar-header .social-links a {
   display: inline-block;
   margin: 0px 6px;
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .top-bar-header .social-links a:hover {
@@ -3766,14 +3766,14 @@ header .header-right-element .search-box form button:hover {
   width: 100%;
   padding: 0px 15px;
   font-size: 14px;
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .top-bar-header .search-box form button {
   background: transparent;
   position: absolute;
   right: 10px;
-  color: #1f425d;
+  color: #055ea2;
   border: 0px;
   top: 0;
   line-height: 36px;
@@ -3883,7 +3883,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .page-banner-wrap {
-  background-color: #1f425d;
+  background-color: #055ea2;
   padding-top: 115px;
   padding-bottom: 105px;
   position: relative;
@@ -3919,7 +3919,7 @@ header .header-right-element .search-box form button:hover {
   left: 0;
   content: "";
   top: 0;
-  background: #1f425d;
+  background: #055ea2;
   width: 100%;
   height: 100%;
   opacity: .40;
@@ -3958,7 +3958,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .breadcrumb-wrapper .breadcrumb .breadcrumb-item a:hover {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .breadcrumb-wrapper .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
@@ -3977,7 +3977,7 @@ header .header-right-element .search-box form button:hover {
   overflow-y: scroll;
   -webkit-transition: right .5s ease-in;
   transition: right .5s ease-in;
-  background-color: #1f425d;
+  background-color: #055ea2;
   padding: 20px;
   z-index: 9999;
   -webkit-box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -4086,11 +4086,11 @@ header .header-right-element .search-box form button:hover {
 .mobile-nav .sidebar-nav .metismenu a:active {
   text-decoration: none;
   color: #f8f9fa;
-  background: #1f425d;
+  background: #055ea2;
 }
 
 #hamburger {
-  color: #1f425d;
+  color: #055ea2;
   font-size: 32px;
   line-height: 1;
   text-align: right;
@@ -4196,7 +4196,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .offset-menu #offset-menu-close-btn:hover {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .offset-menu .offset-menu-footer {
@@ -4216,7 +4216,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .offset-menu .offset-menu-social-icon a:hover {
-  background: #1f425d;
+  background: #055ea2;
 }
 
 .offset-menu img {
@@ -4267,7 +4267,7 @@ header .header-right-element .search-box form button:hover {
   top: 0;
   height: 100%;
   content: "";
-  background-color: #1f425d;
+  background-color: #055ea2;
   opacity: 0.4;
   z-index: 2;
 }
@@ -4950,7 +4950,7 @@ header .header-right-element .search-box form button:hover {
   font-size: 150px;
   line-height: 1;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #1f425d;
+  -webkit-text-stroke-color: #055ea2;
   -webkit-text-fill-color: transparent;
   opacity: .10;
   margin-bottom: 0;
@@ -5066,7 +5066,7 @@ header .header-right-element .search-box form button:hover {
   border-left: 5px solid #4ab9cf;
   font-style: italic;
   padding-left: 20px;
-  color: #1f425d;
+  color: #055ea2;
   font-size: 20px;
   font-weight: 500;
   margin-top: 30px;
@@ -5078,7 +5078,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .theme-bg {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .theme-bg .section-title h5 {
@@ -5572,7 +5572,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .single-freight-service .checked-list li {
-  color: #1f425d;
+  color: #055ea2;
   font-size: 16px;
 }
 
@@ -5613,8 +5613,8 @@ header .header-right-element .search-box form button:hover {
   content: "";
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#1f425d), color-stop(65%, rgba(31, 66, 93, 0.2)), to(rgba(31, 66, 93, 0)));
-  background-image: linear-gradient(0deg, #1f425d 0%, rgba(31, 66, 93, 0.2) 65%, rgba(31, 66, 93, 0) 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#055ea2), color-stop(65%, rgba(31, 66, 93, 0.2)), to(rgba(31, 66, 93, 0)));
+  background-image: linear-gradient(0deg, #055ea2 0%, rgba(31, 66, 93, 0.2) 65%, rgba(31, 66, 93, 0) 100%);
   z-index: -1;
 }
 
@@ -5644,7 +5644,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .single-our-service .content h3:hover a {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 @media (max-width: 757px) {
@@ -5823,7 +5823,7 @@ header .header-right-element .search-box form button:hover {
   height: 40px;
   line-height: 40px;
   font-size: 14px;
-  color: #1f425d;
+  color: #055ea2;
   background-color: #FFF;
   display: inline-block;
   opacity: 0;
@@ -5912,7 +5912,7 @@ header .header-right-element .search-box form button:hover {
   z-index: 1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-bottom: 5px solid #1f425d;
+  border-bottom: 5px solid #055ea2;
   -webkit-box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.1);
 }
@@ -5991,7 +5991,7 @@ header .header-right-element .search-box form button:hover {
 
 .service-sidebar-wrapper .single-sidebar-widgets .services-category-link a {
   display: block;
-  color: #1f425d;
+  color: #055ea2;
   font-weight: 600;
   position: relative;
   padding-left: 30px;
@@ -6038,7 +6038,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .service-sidebar-wrapper .help-line-card {
-  background-color: #1f425d;
+  background-color: #055ea2;
   padding: 30px;
 }
 
@@ -6315,8 +6315,8 @@ header .header-right-element .search-box form button:hover {
 }
 
 .single-pricing-plan.plan-3 .theme-btn, .single-pricing-plan.plan-6 .theme-btn {
-  background-color: #1f425d;
-  border-color: #1f425d;
+  background-color: #055ea2;
+  border-color: #055ea2;
 }
 
 .single-pricing-plan.plan-3 .theme-btn:hover, .single-pricing-plan.plan-6 .theme-btn:hover {
@@ -6325,7 +6325,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .single-pricing-plan.active {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .single-pricing-plan.active .theme-btn {
@@ -6375,7 +6375,7 @@ header .header-right-element .search-box form button:hover {
   display: block;
   font-size: 80px;
   font-family: "Poppins", cursive;
-  color: #1f425d;
+  color: #055ea2;
   line-height: 1;
   font-weight: 400;
   letter-spacing: -3px;
@@ -6546,7 +6546,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .team-member-card .profile-info-card h5:hover a {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .team-member-card .profile-info-card .social-link {
@@ -6562,7 +6562,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .team-member-card .profile-info-card .social-link a:hover {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .single-team-member {
@@ -7071,7 +7071,7 @@ header .header-right-element .search-box form button:hover {
 
 .tab-wrapper ul li .nav-link {
   position: relative;
-  color: #1f425d;
+  color: #055ea2;
   padding: 10px 0px;
   font-family: "Poppins", cursive;
   padding-right: 10px;
@@ -7246,7 +7246,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .project-item-card .contents .project-link:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .project-item-card .contents span {
@@ -7292,7 +7292,7 @@ header .header-right-element .search-box form button:hover {
   top: 0;
   width: 100%;
   height: 80%;
-  background-color: #1f425d;
+  background-color: #055ea2;
   opacity: .6;
   content: "";
   visibility: hidden;
@@ -7394,7 +7394,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .project-item-box .project-link:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .portfolio-cat-filter button {
@@ -7423,7 +7423,7 @@ header .header-right-element .search-box form button:hover {
 
 .portfolio-cat-filter button.active, .portfolio-cat-filter button:hover {
   color: #fff;
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .elementor-accordion .elementor-tab-title {
@@ -7433,7 +7433,7 @@ header .header-right-element .search-box form button:hover {
 
 .elementor-accordion .elementor-tab-title .elementor-accordion-icon {
   margin-top: 4px;
-  color: #1f425d !important;
+  color: #055ea2 !important;
 }
 
 .elementor-accordion .elementor-accordion-item {
@@ -7448,7 +7448,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .elementor-tab-title a {
-  color: #1f425d !important;
+  color: #055ea2 !important;
 }
 
 .faq-content .accordion-item {
@@ -7458,7 +7458,7 @@ header .header-right-element .search-box form button:hover {
 
 .faq-content .accordion-item .accordion-header .accordion-button {
   font-weight: 700;
-  color: #1f425d;
+  color: #055ea2;
   letter-spacing: -.2px;
   border: 0;
   border-radius: 0;
@@ -7544,7 +7544,7 @@ header .header-right-element .search-box form button:hover {
   padding-left: 70px;
   font-size: 20px;
   font-weight: 600;
-  color: #1f425d;
+  color: #055ea2;
   overflow: hidden;
   background-color: transparent;
   padding-top: 10px;
@@ -7562,7 +7562,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .faq-accordion-2 .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-  color: #1f425d;
+  color: #055ea2;
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -7684,7 +7684,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .single-news-card:hover::before, .single-news-card.active::before {
-  background: #1f425d;
+  background: #055ea2;
   opacity: .8;
 }
 
@@ -7716,7 +7716,7 @@ header .header-right-element .search-box form button:hover {
 .single-news-card .contents .post-cat-date .post-cat a {
   display: inline-block;
   position: relative;
-  color: #1f425d;
+  color: #055ea2;
   font-weight: 700;
   font-size: 14px;
   padding-right: 5px;
@@ -7867,7 +7867,7 @@ header .header-right-element .search-box form button:hover {
 
 .single-blog-item .content .post-meta i {
   margin-right: 6px;
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .single-blog-item .content .post-meta .post-date {
@@ -7940,7 +7940,7 @@ header .header-right-element .search-box form button:hover {
 .single-news-box .content h3 {
   font-size: 22px;
   line-height: 140%;
-  color: #1f425d;
+  color: #055ea2;
   margin-top: 10px;
 }
 
@@ -8025,7 +8025,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .blog-wrapper .single-blog-post.post-details blockquote, .blog-wrapper .single-blog-post.post-details .wp-block-quote {
-  background-color: #1f425d;
+  background-color: #055ea2;
   color: #fff;
   font-size: 26px;
   line-height: 1.4;
@@ -8086,7 +8086,7 @@ header .header-right-element .search-box form button:hover {
 
 .blog-wrapper .single-blog-post.quote-post .post-content, .blog-wrapper .single-blog-post.format-quote .post-content {
   position: relative;
-  background-color: #1f425d;
+  background-color: #055ea2;
   background-image: url("../img/quotepost.png");
   border: none;
 }
@@ -8218,7 +8218,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .blog-wrapper .single-blog-post .post-content .post-cat a:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .blog-wrapper .single-blog-post .post-content ul {
@@ -8442,7 +8442,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .main-sidebar .single-sidebar-widget .social-link a:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
   color: #fff;
 }
 
@@ -8473,7 +8473,7 @@ header .header-right-element .search-box form button:hover {
 }
 
 .search_widget form button:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .popular-posts .single-post-item, .popular_posts .single-post-item {
@@ -8517,7 +8517,7 @@ header .header-right-element .search-box form button:hover {
 
 .popular-posts .single-post-item .post-content .post-date, .popular_posts .single-post-item .post-content .post-date {
   margin-top: 5px;
-  color: #1f425d;
+  color: #055ea2;
   font-weight: 700;
   font-size: 14px;
 }
@@ -8593,7 +8593,7 @@ header .header-right-element .search-box form button:hover {
 p.sticky-label {
   position: absolute;
   right: 0;
-  background: #1f425d;
+  background: #055ea2;
   color: #fff;
   padding: 10px 40px;
   z-index: -1;
@@ -8619,7 +8619,7 @@ p.sticky-label {
 }
 
 .page-nav-wrap ul li .page-numbers.current {
-  background-color: #1f425d;
+  background-color: #055ea2;
   color: #Fff;
 }
 
@@ -8638,7 +8638,7 @@ p.sticky-label {
 }
 
 .page-nav-wrap ul li .page-numbers:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
   color: #fff;
 }
 
@@ -8852,7 +8852,7 @@ p.sticky-label {
 }
 
 .comment-form .submit-btn:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .comment-form .submit-btn i {
@@ -8893,7 +8893,7 @@ p.sticky-label {
 
 .site_info_widget .single-contact-info span {
   display: block;
-  color: #1f425d;
+  color: #055ea2;
 }
 
 .site_info_widget .single-contact-info .icon {
@@ -8910,7 +8910,7 @@ p.sticky-label {
 }
 
 .site_info_widget .single-contact-info:nth-child(2n) .icon {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .site_info_widget .single-contact-info:nth-child(3n) .icon {
@@ -8940,7 +8940,7 @@ p.sticky-label {
   content: "";
   z-index: -1;
   top: 0;
-  background: #1f425d;
+  background: #055ea2;
   opacity: 0.65;
 }
 
@@ -8986,7 +8986,7 @@ p.sticky-label {
   display: inline-block;
   margin-right: 8px;
   margin-bottom: 0;
-  border-color: #1f425d;
+  border-color: #055ea2;
 }
 
 @media (max-width: 767px) {
@@ -9004,7 +9004,7 @@ p.sticky-label {
   margin-bottom: 10px;
   height: 60px;
   font-size: 16px;
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 @media (max-width: 767px) {
@@ -9186,7 +9186,7 @@ p.sticky-label {
 .contact-form input[type='submit'].active, .contact-form input[type='submit']:hover,
 .contact-form .submit-btn.active,
 .contact-form .submit-btn:hover {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 .contact-form input[type='submit'] i,
@@ -9221,11 +9221,11 @@ p.sticky-label {
 
 .single-contact-card:hover .icon {
   color: #fff !important;
-  background-color: #1f425d !important;
+  background-color: #055ea2 !important;
 }
 
 .single-contact-card:hover .bottom-part .icon {
-  color: #1f425d !important;
+  color: #055ea2 !important;
   background-color: #fff !important;
 }
 
@@ -9247,7 +9247,7 @@ p.sticky-label {
   background-color: #fff;
   text-align: center;
   float: left;
-  color: #1f425d;
+  color: #055ea2;
   overflow: hidden;
   margin-right: 20px;
 }
@@ -9363,7 +9363,7 @@ footer.footer-2 .footer-bottom .bottom-content-wrapper {
 }
 
 footer .footer-bottom {
-  background-color: #1f425d;
+  background-color: #055ea2;
 }
 
 @media (max-width: 767px) {
@@ -9416,7 +9416,7 @@ footer .footer-bottom .social-links a {
 }
 
 footer .footer-bottom .social-links a:hover {
-  color: #1f425d;
+  color: #055ea2;
 }
 
 footer .footer-bottom .social-links a:last-of-type {
